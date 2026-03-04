@@ -118,5 +118,16 @@ Non-staged payloads send the entire shellcode in one single transmission.
 - No need for additional download stages.
 
 #### Disadvantages:
+
+
+
+## 4. Key Differences Summary
+
+| Feature        | Reverse Shell | Bind Shell |
+|---------------|--------------|------------|
+| Who initiates connection | Victim | Attacker |
+| Firewall bypass | Easier | Harder |
+| Requires open inbound port | No | Yes |
+| Common in real attacks | Very common | Less common |
 - Larger size.
 - Easier to detect due to payload signature.
