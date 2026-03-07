@@ -4,10 +4,43 @@ This repository contains my practical notes, exploitation breakdowns, detection 
 
 ## Topics Covered
 
-- Reverse vs Bind Shells
+This repository documents concepts, techniques, and notes from my cybersecurity learning journey.
+
+### Reconnaissance & Enumeration
+- Scanning and Enumeration
+
+### Exploitation
+- Reverse Shells
+- Bind Shells
 - Staged vs Non-Staged Payloads
-- Linux Privilege Escalation (coming soon)
-- Web Exploitation (coming soon)
+
+### Privilege Escalation
+- Linux Privilege Escalation
+- Windows Privilege Escalation
+
+### Active Directory Attacks
+- Domain Enumeration
+- Kerberoasting
+- Pass-the-Hash
+- BloodHound
+
+### Web Application Attacks
+- SQL Injection
+- Cross-Site Scripting (XSS)
+- Command Injection
+- File Upload Vulnerabilities
+- IDOR
+
+### Post Exploitation
+- Credential Harvesting
+- Lateral Movement
+- Data Exfiltration
+
+### Persistence
+- Maintaining Access
+- Scheduled Tasks
+- SSH Key Persistence
+- Backdoors
 
 ## Goal
 
